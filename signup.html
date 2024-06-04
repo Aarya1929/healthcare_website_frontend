@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/0f31d203b7.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Heebo:wght@800&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container ">
+        <h1>SignUp</h1>
+        <div class="box">
+            <i class="fas fa-user"></i>
+            <input type="text" required="true" name="name" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="box">
+            <i class="fas fa-mobile"></i>
+            <input type="text" required="true" maxlength="10" name="mobile" id="mobile" placeholder="Enter Your Mobile No.">
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <input type="email" required="true" name="email" id="email" placeholder="Enter email">
+        </div>
+        <div class="box">
+            <i class="fas fa-clipboard"></i>
+            <input type="text" required="true"  name="Dept" id="Dept" placeholder="Enter Your Department">
+        </div>
+        <div class="box">
+            <i class="fas fa-key"></i>
+            <input type="password" required="true" maxlength="8" name="password" id="password" placeholder="Enter Your Password">
+        </div>
+        <button class="btn" id="btn" onclick="Alert()">Sign Up</button>
+        <script>
+            function Alert() {
+              alert("Done Sign Up");
+            }
+        </script>
+
+    </div>
+
+</body>
+
+</html>

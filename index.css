@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg) no-repeat center center fixed;
+    background-size: 150%;
+}
+
+
+.container {
+    color: black;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+
+}
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    width: 51%;
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 13px;
+    padding:15px 0;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0;
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 20px;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: black;
+    font-weight: bold;
+}
+.btn:hover{
+    background: white;
+    color: purple;
+    opacity: 0.5;
+}
